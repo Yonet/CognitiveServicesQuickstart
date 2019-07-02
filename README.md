@@ -6,7 +6,7 @@
 
 ### [Object Detection - Node.js SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet)
 
- ####  [Step-1 branch]()
+ ####  [Step-1 branch](https://github.com/Yonet/CognitiveServicesQuickstart/tree/step-1)
 
  - Create a new folder for your project, ex: CognitiveServices.
  - [Initialize a git project.](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
@@ -40,7 +40,7 @@ export predictionResourceId={your predictionResourceId key}
 
  - Create and add [sample.js file](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=#add-the-code)
 
- - Change the Key variables in your code to use your environment variables.
+ - Change the [Key variables](https://github.com/Yonet/CognitiveServicesQuickstart/blob/d5d9fab5e40791e0752f4ecad8ec5a753d67d7b8/sample.js#L7) in your code to use your environment variables.
 
  ```js
 const trainingKey = process.env.trainingKey;
