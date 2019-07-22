@@ -28,7 +28,7 @@ npm install @azure/cognitiveservices-customvision-training
 npm install @azure/cognitiveservices-customvision-prediction
  ```
 
-- Get the Training and prediction Keys(https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet#get-the-training-and-prediction-keys)
+- Get the [Training and prediction Keys](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet#get-the-training-and-prediction-keys)
 
 - Add the Keys as environment variable on your console.
 
