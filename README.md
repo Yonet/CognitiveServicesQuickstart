@@ -1,6 +1,9 @@
 # Cognitive Services Quickstart
 
-[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+
+
+[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
 
 ## Custom Vision
 
