@@ -1,6 +1,32 @@
 # Cognitive Services Quickstart
 
-[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+## Running locally
+
+1. Create a `.env` file and add your variables that are defined in '.env.example' file, then run the following commands:
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the sample file
+
+```bash
+node sample.js
+```
+
+Or by running
+
+```bash
+npm st
+```
+
+[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+
+
+[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+
 
 ## Custom Vision
 
