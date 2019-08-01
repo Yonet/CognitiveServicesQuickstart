@@ -1,7 +1,9 @@
+const fs = require('fs');
 const util = require('util');
+require('dotenv').config();
+
 const TrainingApi = require("@azure/cognitiveservices-customvision-training");
 const PredictionApi = require("@azure/cognitiveservices-customvision-prediction");
-require('dotenv').config();
 
 const setTimeoutPromise = util.promisify(setTimeout);
 
@@ -10,7 +12,7 @@ const predictionKey = process.env.predictionKey;
 const predictionResourceId = process.env.predictionResourceId;
 const sampleDataRoot = "images";
 
-const endPoint = "https://westus2.api.cognitive.microsoft.com/customvision/v3.0/Training/"
+const endPoint = "https://westus2.api.cognitive.microsoft.com"
 
 const publishIterationName = "detectModel";
 
@@ -20,12 +22,11 @@ const trainer = new TrainingApi.TrainingAPIClient(trainingKey, endPoint);
     console.log("Creating project...");
     const domains = await trainer.getDomains()
     const objDetectDomain = domains.find(domain => domain.type === "ObjectDetection");
-    const sampleProject = await trainer.createProject("Sample Obj Detection Project", { domainId: objDetectDomain.id });
+    const sampleProject = await trainer.createProject("Sample Obj Detection Project", { domainId: objDetectDomain.id }).catch((err) => { console.log(err); });
 
-    // First code sample ends
 
-    const forkTag = await trainer.createTag(sampleProject.id, "Fork");
-    const scissorsTag = await trainer.createTag(sampleProject.id, "Scissors");
+    const forkTag = await trainer.createTag(sampleProject.id, "Fork").catch((err) => { console.log(err); });
+    const scissorsTag = await trainer.createTag(sampleProject.id, "Scissors").catch((err) => { console.log(err); });
 
     const forkImageRegions = {
         "fork_1.jpg": [0.145833328, 0.3509314, 0.5894608, 0.238562092],
@@ -122,7 +123,7 @@ const trainer = new TrainingApi.TrainingAPIClient(trainingKey, endPoint);
     const predictor = new PredictionApi.PredictionAPIClient(predictionKey, endPoint);
     const testFile = fs.readFileSync(`${sampleDataRoot}/Test/test_od_image.jpg`);
 
-    const results = await predictor.detectImage(sampleProject.id, publishIterationName, testFile)
+    const results = await predictor.detectImage(sampleProject.id, publishIterationName, testFile).catch((err) => { console.log(err); });
 
     // Show results
     console.log("Results:");
