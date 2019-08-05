@@ -1,5 +1,13 @@
 # Cognitive Services Quickstart
 
+[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+
+## Custom Vision
+
+[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+
+### [Object Detection - Node.js SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet)
+
 ## Running locally
 
 1. Create a `.env` file and add your variables that are defined in '.env.example' file, then run the following commands:
@@ -21,16 +29,6 @@ Or by running
 ```bash
 npm st
 ```
-
-[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
-
-
-[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
-
-
-## Custom Vision
-
-### [Object Detection - Node.js SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet)
 
  ####  [Step-1 branch](https://github.com/Yonet/CognitiveServicesQuickstart/tree/step-1)
 
