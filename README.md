@@ -62,7 +62,7 @@ export predictionKey={your predictionKey key}
 export predictionResourceId={your predictionResourceId key}
 ```
 
- - Create and add [sample.js file](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=#add-the-code)
+ - Create and add [sample.js file](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=#CognitiveServicesQuickstart-github-ayyonet)
 
  - Change the [Key variables](https://github.com/Yonet/CognitiveServicesQuickstart/blob/d5d9fab5e40791e0752f4ecad8ec5a753d67d7b8/sample.js#L7) in your code to use your environment variables.
 
