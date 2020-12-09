@@ -1,12 +1,12 @@
 # Cognitive Services Quickstart
 
-[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+[Azure Cognitive Services Quickstart](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=spatial-0000-ayyonet) completed steps divided into branches.
 
 ## Custom Vision
 
-[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet) completed steps divided into branches.
+[Azure Cognitive Services - Custom Vision Quickstart](https://docs.microsoft.com/azure/cognitive-services/custom-vision-service/?WT.mc_id=spatial-0000-ayyonet) completed steps divided into branches.
 
-### [Object Detection - Node.js SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet)
+### [Object Detection - Node.js SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=spatial-0000-ayyonet)
 
 ## Running locally
 
@@ -45,14 +45,14 @@ npm st
  npm init
  ```
 
- - Install the [Custom Vision SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet#install-the-custom-vision-sdk)
+ - Install the [Custom Vision SDK](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=spatial-0000-ayyonet#install-the-custom-vision-sdk)
 
  ```bash
 npm install @azure/cognitiveservices-customvision-training
 npm install @azure/cognitiveservices-customvision-prediction
  ```
 
-- Get the [Training and prediction Keys](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=CognitiveServicesQuickstart-github-ayyonet#get-the-training-and-prediction-keys)
+- Get the [Training and prediction Keys](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=spatial-0000-ayyonet#get-the-training-and-prediction-keys)
 
 - Add the Keys as environment variable on your console.
 
@@ -62,7 +62,7 @@ export predictionKey={your predictionKey key}
 export predictionResourceId={your predictionResourceId key}
 ```
 
- - Create and add [sample.js file](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=#CognitiveServicesQuickstart-github-ayyonet)
+ - Create and add [sample.js file](https://docs.microsoft.com/azure/cognitive-services/Custom-Vision-Service/node-tutorial-object-detection?WT.mc_id=spatial-0000-ayyonet#CognitiveServicesQuickstart-github-ayyonet)
 
  - Change the [Key variables](https://github.com/Yonet/CognitiveServicesQuickstart/blob/d5d9fab5e40791e0752f4ecad8ec5a753d67d7b8/sample.js#L7) in your code to use your environment variables.
 
